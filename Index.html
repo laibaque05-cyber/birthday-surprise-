@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Birthday Surprise 🎂💓</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <!-- Floating decorations -->
+    <div class="hearts">
+        💓 ✨ 🎈 ✨ 💓
+    </div>
+
+
+    <main>
+
+
+        <!-- PAGE 1 -->
+        <section class="page active" id="page1">
+
+            <div class="welcome-heart">
+                🎂
+            </div>
+
+            <h1>
+                Hey! It's Your Special Day 🎉
+            </h1>
+
+            <p>
+                Aaj ka din thora sa special hai...
+                kyunki aaj tumhara birthday hai! 🥳
+            </p>
+
+            <p>
+                Aur tumhare liye ek chhota sa surprise bhi hai. 👀🎁
+            </p>
+
+            <div class="sparkles">
+                🎈 ✨ 🎂 ✨ 🎈
+            </div>
+
+            <button onclick="nextPage()">
+                Open Your Surprise 🎁
+            </button>
+
+        </section>
+
+
+
+        <!-- PAGE 2 -->
+        <section class="page" id="page2">
+
+            <div class="birthday-card">
+
+                <div class="cake">
+                    🎂
+                </div>
+
+                <h1>
+                    Happy Birthday! 🎉
+                </h1>
+
+                <p>
+                    Sabse pehle to...
+                    <b>Happy Birthday! 🥳🎂</b>
+                </p>
+
+                <p>
+                    Aaj ka din mere liye bhi special hai,
+                    kyunki aaj ke din ek bohat achha
+                    insaan duniya mein aaya tha. ✨
+                </p>
+
+                <p>
+                    I hope tumhara aaj ka din bohat acha
+                    guzre aur tumhari smile hamesha
+                    aise hi rahe. 😊
+                </p>
+
+            </div>
+
+            <button onclick="nextPage()">
+                Ek Aur Cheez Dekho 💗
+            </button>
+
+        </section>
+
+
+
+        <!-- PAGE 3 -->
+        <section class="page" id="page3">
+
+            <h1>
+                Why You're Special? 🌟
+            </h1>
+
+            <p>
+                Kuch baatein jo tumhe special banati hain...
+                cards par click karo. 💗
+            </p>
+
+
+            <div class="cards">
+
+
+                <div class="card"
+                     onclick="reveal(this)">
+                    😊
+                </div>
+
+
+                <div class="card"
+                     onclick="reveal(this)">
+                    ✨
+                </div>
+
+
+                <div class="card"
+                     onclick="reveal(this)">
+                    🌟
+                </div>
+
+
+                <div class="card"
+                     onclick="reveal(this)">
+                    💫
+                </div>
+
+
+                <div class="card"
+                     onclick="reveal(this)">
+                    😄
+                </div>
+
+
+                <div class="card"
+                     onclick="reveal(this)">
+                    🎯
+                </div>
+
+
+                <div class="card"
+                     onclick="reveal(this)">
+                    🤍
+                </div>
+
+
+                <div class="card"
+                     onclick="reveal(this)">
+                    🌸
+                </div>
+
+
+                <div class="card"
+                     onclick="reveal(this)">
+                    🎁
+                </div>
+
+
+            </div>
+
+
+            <button onclick="nextPage()">
+                Next 💕
+            </button>
+
+        </section>
+
+
+
+        <!-- PAGE 4 -->
+        <section class="page" id="page4">
+
+            <div class="letter">
+
+                <h1>
+                    A Little Birthday Note 💌
+                </h1>
+
+
+                <p>
+                    Hey! 😊
+                </p>
+
+
+                <p>
+                    Tumhare birthday par bas itna kehna hai
+                    ke I hope tumhari life hamesha
+                    khushiyon aur achhe logon se bhari rahe.
+                </p>
+
+
+                <p>
+                    Jo bhi dreams tumhare hain,
+                    Allah tumhe unhe pura karne ki
+                    himmat aur kamyabi de. 🤲✨
+                </p>
+
+
+                <p>
+                    Tum hamesha khush raho,
+                    haste raho aur life mein bohat
+                    aage jao. 🌟
+                </p>
+
+
+                <p>
+                    Aur haan...
+                    aaj ke din smile karna bilkul
+                    mat bhoolna! 😄🎂
+                </p>
+
+            </div>
+
+
+            <button onclick="nextPage()">
+                Ab Memories Dekho 📸
+            </button>
+
+        </section>
+
+
+
+        <!-- PAGE 5 -->
+        <section class="page" id="page5">
+
+            <h1>
+                Some Memories 📸
+            </h1>
+
+
+            <p>
+                Kuch pictures jo is surprise ka
+                hissa honi chahiye thi. ✨
+            </p>
+
+
+            <div class="gallery">
+
+
+                <img
+                    src="IMG-20240224-WA0013.jpg"
+                    alt="Birthday Memory"
+                >
+
+
+                <img
+                    src="IMG-20240224-WA0014 (1).jpg"
+                    alt="Birthday Memory"
+                >
+
+
+            </div>
+
+
+            <button onclick="nextPage()">
+                One Last Surprise 🎁
+            </button>
+
+        </section>
+
+
+
+        <!-- PAGE 6 - FINAL -->
+        <section class="page" id="page6">
+
+            <div class="final">
+
+
+                <div class="big-heart">
+                    💓
+                </div>
+
+
+                <h1>
+                    Once Again... 🎂
+                </h1>
+
+
+                <h2>
+                    Happy Birthday! 🥳🎈
+                </h2>
+
+
+                <p>
+                    May Allah always keep you happy,
+                    healthy and successful. 🤲✨
+                </p>
+
+
+                <p>
+                    Tumhari life mein bohat saari
+                    khushiyan aayein aur tum jo chaho
+                    woh tumhe mile. 🌟
+                </p>
+
+
+                <p>
+                    Keep smiling and keep shining! 😊✨
+                </p>
+
+
+                <div class="final-message">
+
+                    <h2>
+                        I Love You So Much, Hubby ❤️
+                    </h2>
+
+                    <h2>
+                        Happy Birthday 🎈🎂💓
+                    </h2>
+
+                </div>
+
+
+                <div class="final-stars">
+                    ✨ 💓 🎈 🎂 🎈 💓 ✨
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- MUSIC -->
+
+    <audio id="birthdayMusic" loop>
+
+        <source
+            src="media/birthday.mp3"
+            type="audio/mpeg">
+
+    </audio>
+
+
+    <button
+        onclick="playMusic()"
+        class="music-btn">
+
+        🎵 Play Music
+
+    </button>
+
+
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+
+    <script>
+
+        function playMusic() {
+
+            const music =
+                document.getElementById("birthdayMusic");
+
+            const button =
+                document.querySelector(".music-btn");
+
+
+            if (music.paused) {
+
+                music.play();
+
+                button.innerHTML =
+                    "⏸️ Pause Music";
+
+            } else {
+
+                music.pause();
+
+                button.innerHTML =
+                    "🎵 Play Music";
+
+            }
+
+        }
+
+    </script>
+
+
+</body>
+
+</html>
